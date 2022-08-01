@@ -78,3 +78,5 @@
 ;; they are implemented.
 
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
+
+(setq doom-unreal-buffer-functions '(minibufferp))
