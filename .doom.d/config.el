@@ -21,6 +21,8 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
+;;
+(setq-default line-spacing 4)
 (setq doom-font (font-spec :family "Menlo" :size 15 :weight 'semi-light)
       doom-variable-pitch-font (font-spec :family "Menlo" :size 15))
 ;;
